@@ -1,4 +1,4 @@
-# SPDFM User Guid
+# SPDFEM User Guid
 
 The problem statement for this software can be found in: 
 https://github.com/shmouses/SPDFM/blob/master/docs/ProblemStatement/ProblemStatement.pdf
