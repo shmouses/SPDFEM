@@ -1,6 +1,6 @@
 # Test Plan Documentation
 
-Welcome to the Test Plan documentation for [Project Name]. This folder contains important documents and resources related to the project's testing and validation strategies. Explore the details below to gain insights into the project's testing approach and execution.
+Welcome to the Test Plan documentation for SPDFEM. This folder contains important documents and resources related to the project's testing and validation strategies. Explore the details below to gain insights into the project's testing approach and execution.
 
 ## Important Contents
 
@@ -17,11 +17,11 @@ Welcome to the Test Plan documentation for [Project Name]. This folder contains 
 
 ## Purpose
 
-The Test Plan documentation outlines the strategy and approach for ensuring the quality and reliability of [Project Name]. It provides a structured plan for verification and validation, ensuring that the software meets its intended functionality and performance.
+The Test Plan documentation outlines the strategy and approach for ensuring the quality and reliability of SPDFEM. It provides a structured plan for verification and validation, ensuring that the software meets its intended functionality and performance.
 
-Feel free to delve into the resources in this folder to understand the rigorous testing processes undertaken to ensure the excellence of [Project Name].
+Feel free to delve into the resources in this folder to understand the rigorous testing processes undertaken to ensure the excellence of SPDFEM.
 
 For any questions, feedback, or contributions, please reach out.
 
-Happy exploring and understanding the meticulous testing approach of [Project Name]!
+Happy exploring and understanding the meticulous testing approach of SPDFEM!
 
