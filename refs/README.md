@@ -1,8 +1,6 @@
-# Project Name
+# SPDFEM References
 
-This folder holds information and resources of interest for the project.  This
-is intended to be a convenient location for project members to access
-support material for the project.
+This folder holds information and resources of interest for the project. 
 
 References are named using the Nat Bib convention.  That is, the citation name,
 and the corresponding file name should be in the format AuthorYear.  If there is
