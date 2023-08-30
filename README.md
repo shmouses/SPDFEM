@@ -1,54 +1,49 @@
-# SPDFEM User Guid
+# SPDFEM User Guide
 
-The problem statement for this software can be found in: 
-https://github.com/shmouses/SPDFM/blob/master/docs/ProblemStatement/ProblemStatement.pdf
-<<<<<<< HEAD
+Welcome to the SPDFEM (Simulation of Photonic Devices using Finite Element Method) package! This package enables you to simulate and analyze photonic devices using the Finite Element Method. This README file provides you with essential information on how to use the package effectively.
 
-The systerm requirement specification document that includes the theoretical background can be found in: 
-https://github.com/shmouses/SPDFM/blob/master/docs/SRS/SRS.pdf
+## Problem Statement
+For an understanding of the problem that this software addresses, please refer to the [Problem Statement document](https://github.com/shmouses/SPDFM/blob/master/docs/ProblemStatement/ProblemStatement.pdf).
 
-The validation and verification plan and report are respectively documented in:
-https://github.com/shmouses/SPDFM/blob/master/docs/VnVPlan/VnVPlan.pdf
-and 
-https://github.com/shmouses/SPDFM/blob/master/docs/VnV%20Report/VnV%20Report.pdf
+## System Requirement Specification (SRS)
+To delve into the theoretical background and system requirements, consult the [SRS document](https://github.com/shmouses/SPDFM/blob/master/docs/SRS/SRS.pdf).
 
-The modular desing of the software is docuented in: 
-https://github.com/shmouses/SPDFM/blob/master/docs/Design
+## Validation and Verification (V&V)
+The validation and verification plan and report can be found respectively at:
+- [Validation and Verification Plan](https://github.com/shmouses/SPDFM/blob/master/docs/VnVPlan/VnVPlan.pdf)
+- [Validation and Verification Report](https://github.com/shmouses/SPDFM/blob/master/docs/VnV%20Report/VnV%20Report.pdf)
 
-For the first time user's of SPDFM, using the tutorial jupyter notebook is highly recommended.
-The link to Tutorial Jupyter notebook: 
-https://github.com/shmouses/SPDFM/blob/master/src/SPDFM%20Tutorial%20.ipynb
+## Modular Design
+Explore the modular design of the software in the [Design directory](https://github.com/shmouses/SPDFM/blob/master/docs/Design).
 
-For running SPDFM on a system below libraries should be install on the system:
--fenicd 2019 1.0
--matplolib
--numpy
--math
--time
--scipy
+## Tutorial Jupyter Notebook
+For newcomers to SPDFM, we highly recommend following the tutorial provided in the [Tutorial Jupyter notebook](https://github.com/shmouses/SPDFM/blob/master/src/SPDFM%20Tutorial%20.ipynb).
 
-As SPDFM is written based on fenics toolbox, this program should be run on a system with Linux OS.
+## System Requirements
+Before running SPDFM, ensure that the following libraries are installed on your system:
+- fenicd 2019 1.0
+- matplotlib
+- numpy
+- math
+- time
+- scipy
 
-To initiate running a simulation on SPDFM: 
+Please note that SPDFM is built upon the fenics toolbox and should be executed on a system running a Linux OS.
 
-0-download or clone src folder on your system
+## Running a Simulation
+To initiate a simulation using SPDFM, follow these steps:
 
-1-Run the main.py
+1. Download or clone the `src` folder to your local system.
+2. Run `main.py`.
+3. You'll be prompted to provide a path to an input file containing material properties and light source illumination details. If the `src` folder is copied, you can use: `Input/Input_t1.txt`.
+4. You'll be asked to provide the path to the `.xml` mesh file. Ensure that the mesh is readable by the Dolfin toolbox, which is embedded in Fenics. Example input: `Mesh/G_fill_t1.xml`.
+5. Provide the path to the file indicating physical regions in the mesh. Example input: `Mesh/G_fill_pr_t1.xml`.
+6. Similarly, provide the path to the file containing facet region information for the mesh. Example input: `Mesh/G_fill_fc_t1.xml`.
+7. SPDFM will now perform calculations and save the real and imaginary parts of the electric field and electric current density in `.pvd` and `.vtk` files in the "FEM Output" directory.
 
-2-User will be asked to provide a path to the input file. This file contains information about material properties and light source illumination
-  If src file is copied user can insert: Input/Input_t1.txt
+## Testing
+For testing specific parts of the code, you can execute `.py` files that start with "test_". To run `test_constparam.py` and `test_inputparam.py`, you should use the `pytest` library in Python.
 
-3-User will be asked to provide the path to the .xml mesh file. Be aware that this mesh should be readable by dolfin toolbox which is a embeded toolbox being used in fenics.
-  Sample input: Mesh/G_fill_t1.xml
-  
-4-User will be asked to provide the path to the file that indicates physical regions in the mesh.
-  Sample input: Mesh/G_fill_pr_t1.xml
-  
-5-User will be ask to provide the path to the file that contains facet regions information for the mesh.
-  Sample input: Mesh?G_fill_fc_t1.xml
+For any issues, inquiries, or contributions, please feel free to contact the authors of the repository.
 
-6-It takes a while for SPDFM to run the calculations and save the real and imaginary parts of the electric field and electric current density in .pvd and .vtk files in "FEM Output"
-
-** for testing different areas of the code user can simply run .py files that start with "test_". For executing test_constparam.py and test_inputparam.py user should use pytest library python for execution.
-
-=======
+Happy simulating with SPDFEM!
