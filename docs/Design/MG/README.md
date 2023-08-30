@@ -21,4 +21,3 @@ Feel free to explore the resources in this folder to gain insights into the thou
 
 For any questions, feedback, or contributions, please don't hesitate to get in touch.
 
-Happy exploring and understanding the intricacies of module design with SPDFEM!
