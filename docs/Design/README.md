@@ -15,4 +15,3 @@ Feel free to explore the documents and folders to gain insights into the meticul
 
 For any inquiries, feedback, or contributions, please don't hesitate to get in touch.
 
-Happy exploring and delving into the intricacies of the design with SPDFEM!
