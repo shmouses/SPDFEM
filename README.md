@@ -21,7 +21,7 @@ For newcomers to SPDFM, we highly recommend following the tutorial provided in t
 
 ## System Requirements
 Before running SPDFM, ensure that the following libraries are installed on your system:
-- fenicd 2019 1.0
+- fenics 2019 1.0
 - matplotlib
 - numpy
 - math
